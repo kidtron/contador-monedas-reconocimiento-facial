@@ -3,7 +3,7 @@ import numpy as np
 
 valorGauss= 3
 ValorKernel= 3
-path = r'C:\Users\kidtr\Downloads\2+Instalando+OpenCv\monedascontorno\monedascolombianas2015.jpg'
+path = r'C:\Users\kidtr\Downloads\2OpenCv\venv\recoFacial-contadorMon\monedascontorno\hola.jpg'
 original = cv2.imread(path)
 grises = cv2.cvtColor(original, cv2.COLOR_BGR2GRAY)
 gauss = cv2.GaussianBlur(grises, (valorGauss,valorGauss), 0)
